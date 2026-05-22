@@ -21,9 +21,10 @@ pipeline:
             steps:
               - step:
                   identifier: echo
-                  name: echo
+                  name: maven build
                   spec:
-                    command: echo hello world
+                    shell: Sh
+                    command: mvn clean compile
                   timeout: ""
                   type: Run
           platform:
