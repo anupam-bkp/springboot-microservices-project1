@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_anupam_bkp_springboot_microservices_project1_1779478658486-push-trigger-input-set
+  identifier: Build_anupam_bkp_springboot_microservices_project1_1779478658486pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_anupam_bkp_springboot_microservices_project1_1779478658486
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
